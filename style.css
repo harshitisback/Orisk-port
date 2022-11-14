@@ -484,6 +484,46 @@ body {
 
 /* progress */
 
+.pgbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para-progress {
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 45px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+
+@media (max-width:500px) {
+    .pgbar {
+        flex-direction: column;
+    }
+    .para-progress {
+        margin-top: 2%;
+        font-size: 1.2rem;
+        line-height: 30px;
+
+    }
+}
+
+.piechart {
+    width: 400px;
+    height: 500px;
+}
+
 
 
 
