@@ -6,8 +6,14 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    background-color: #FDFCF3;
 }
 
+
+.nav-item {
+    margin: 5% !important;
+    font-size: 1.2rem;
+}
 
 /* main section */
 
@@ -82,6 +88,7 @@ body {
 }
 
 
+
 .knowbtn {
     margin-left: 10% !important;
     margin-top: 1% !important;
@@ -124,7 +131,7 @@ body {
     color: #000000;
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
     .protect-head {
         font-size: 3rem;
         line-height: 64px;
@@ -156,7 +163,7 @@ body {
     color: #000000;
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
     .flex-bottomc {
         flex-direction: column-reverse;
     }
@@ -366,3 +373,102 @@ body {
     }
 
 }
+
+
+/* About Page */
+
+.about-flex-head {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 20%;
+
+}
+
+.comeup {
+
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 95px;
+
+    color: #000000;
+}
+
+@media(max-width:500px) {
+    .about-flex-head {
+        flex-direction: column;
+    }
+
+    .comeup {
+        font-size: 3rem;
+        line-height: 80px;
+    }
+}
+
+.about-para-pass {
+    margin: 7% 15%;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 45px;
+    text-align: center;
+
+    color: #000000;
+}
+
+@media(max-width:500) {
+    .about-para-pass {
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin: 3% 1% !important;
+    }
+}
+
+/* Aim section */
+
+.our-aims {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    text-align: center !important;
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 70px;
+
+    color: #000000;
+}
+
+.flexcards {
+    margin-bottom: 7%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media(max-width:500px){
+    .flexcards {
+        flex-direction: column;
+    }
+}
+
+.idea {
+    margin: 5% 15%;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 45px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+
+
