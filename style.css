@@ -420,7 +420,7 @@ body {
     color: #000000;
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
     .about-para-pass {
         margin: 7% 7%;
         font-size: 1.3rem;
@@ -452,7 +452,7 @@ body {
     margin-right: 10%;
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
     .flexcards {
         flex-direction: column;
     }
@@ -471,7 +471,7 @@ body {
 
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
     .idea {
         margin: 5% 5%;
         font-size: 1.3rem;
@@ -511,6 +511,7 @@ body {
     .pgbar {
         flex-direction: column;
     }
+
     .para-progress {
         margin-top: 2%;
         font-size: 1.2rem;
@@ -525,5 +526,45 @@ body {
 }
 
 
+.border {
+    background-color: #F9F5D0;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ssa {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 80px;
+    /* identical to box height */
 
 
+    color: #000000;
+}
+
+@media (max-width:500px) {
+    .ssa {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+}
+
+.cards-ss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-img-top {
+
+    height: 500px;
+}
+
+@media (max-width:500px) {
+    .cards-ss {
+        flex-direction: column;
+    }
+}
